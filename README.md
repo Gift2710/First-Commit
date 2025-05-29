@@ -1,5 +1,8 @@
 # 🚀 First Commit Demo
 
+<!-- 語言導覽表 -->
+[![(繁體中文)Tradionnal Chinese](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.3.2/flags/4x3/tw.svg)] (language/README.tw.md)
+
 Welcome to **First Commit Demo**!  
 This project is designed to help **GitHub beginners** make their very first contribution in a friendly, zero-pressure environment.
 
@@ -21,7 +24,8 @@ This project is designed to help **GitHub beginners** make their very first cont
 3. **Add your info**:
     - Go to `src/data/`
     - Copy `demo.json` and rename it to `yourgithubusername.json`
-    - Edit the file with your name, GitHub, and (optionally) LinkedIn
+    - Edit the file with your name, GitHub, and (optionally) LinkedIn  
+      **If you don't want to provide LinkedIn, just keep `https://linkedin.com/in/yourlinkedin` (don't edit or remove it).**
 4. **Commit** your changes
 5. **Push** to your fork
 6. **Create a Pull Request** (PR) to this repo
@@ -39,7 +43,16 @@ This project is designed to help **GitHub beginners** make their very first cont
   "linkedin": "https://linkedin.com/in/yourlinkedin"
 }
 ```
-*(LinkedIn is optional!)*
+*(LinkedIn is optional! If you don't want to provide it, just keep the default value above.)*
+
+---
+
+## 🌐 More Languages / 多語言歡迎
+
+We welcome contributions to this README or project in **any language**!  
+If you want to help more people, feel free to add a section in your language below, or translate the instructions.
+
+歡迎大家用自己的語言補充說明或翻譯本專案內容，讓更多初學者受益！
 
 ---
 
