@@ -4,6 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Commit Contributors</title>
+    <style>
+        body {
+            background: #f6f8fa;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        #contributors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+            margin-top: 32px;
+        }
+        .contributor-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 24px 32px;
+            min-width: 260px;
+            max-width: 320px;
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        .contributor-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.16);
+        }
+        .contributor-card h2 {
+            margin: 0 0 12px 0;
+            font-size: 1.3em;
+            color: #0969da;
+        }
+        .contributor-card a {
+            color: #0969da;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .contributor-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <h1>First Commit Contributors</h1>
