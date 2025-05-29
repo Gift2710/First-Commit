@@ -1,8 +1,5 @@
 # 🚀 First Commit Demo
 
-## 🌍 Other Languages
-[<img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.3.2/flags/4x3/tw.svg" width="32" alt="繁體中文">](language/README.tw.md)
-
 Welcome to **First Commit Demo**!  
 This project is designed to help **GitHub beginners** make their very first contribution in a friendly, zero-pressure environment.
 
