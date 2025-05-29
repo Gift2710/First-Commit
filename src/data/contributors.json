@@ -1,7 +1,14 @@
 [
+    [
+        {
+            "name": "0lynnl",
+            "github": "https://github.com/0lynnl",
+            "linkedin": "https://linkedin.com/in/yourlinkedin"
+        }
+    ],
     {
-        "name": "Your Name",
-        "github": "https://github.com/yourgithubusername",
-        "linkedin": "https://linkedin.com/in/yourlinkedin"
+        "name": "Henry Lok",
+        "github": "https://github.com/henrylok0",
+        "linkedin": "https://linkedin.com/in/ihenrylok"
     }
 ]
