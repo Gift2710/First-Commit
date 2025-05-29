@@ -9,8 +9,50 @@
 <body>
     <div class="container">
         <h1>First Commit Contributors</h1>
+        <input type="text" id="searchBox" placeholder="Search by user name..." style="margin-bottom:20px;padding:8px;width:100%;max-width:320px;">
         <div id="contributors"></div>
     </div>
+    <script>
+        let allContributors = [];
+        const contributorsDiv = document.getElementById('contributors');
+        const searchBox = document.getElementById('searchBox');
+
+        function renderContributors(list) {
+            contributorsDiv.innerHTML = '';
+            list.forEach(contributor => {
+                const contributorElement = document.createElement('div');
+                contributorElement.className = 'contributor-card';
+                let linkedinHtml = '';
+                if (
+                    contributor.linkedin &&
+                    contributor.linkedin !== 'https://linkedin.com/in/yourlinkedin'
+                ) {
+                    linkedinHtml = `<p>LinkedIn: <a href="${contributor.linkedin}" target="_blank">${contributor.linkedin}</a></p>`;
+                }
+                contributorElement.innerHTML = `
+                    <h2>${contributor.name}</h2>
+                    <p>GitHub: <a href="${contributor.github}" target="_blank">${contributor.github}</a></p>
+                    ${linkedinHtml}
+                `;
+                contributorsDiv.appendChild(contributorElement);
+            });
+        }
+
+        fetch('src/data/contributors.json')
+            .then(response => response.json())
+            .then(data => {
+                allContributors = data;
+                renderContributors(allContributors);
+            });
+
+        searchBox.addEventListener('input', function() {
+            const keyword = this.value.trim().toLowerCase();
+            const filtered = allContributors.filter(c =>
+                c.name.toLowerCase().includes(keyword)
+            );
+            renderContributors(filtered);
+        });
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
