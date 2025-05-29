@@ -1,0 +1,12 @@
+{
+    "name": "first-commit-demo",
+    "version": "1.0.0",
+    "description": "A project to encourage users to make their first commit.",
+    "main": "main.js",
+    "scripts": {
+        "start": "open index.html",
+        "merge": "node src/scripts/merge-contributors.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
