@@ -1,4 +1,3 @@
-// filepath: c:\Users\user\Github\First-Commit\src\scripts\merge-contributors.js
 const fs = require('fs');
 const path = require('path');
 
@@ -12,7 +11,11 @@ fs.readdirSync(dataDir).forEach(file => {
     const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
     try {
       const obj = JSON.parse(content);
-      contributors.push(obj);
+      if (Array.isArray(obj)) {
+        contributors.push(...obj);
+      } else {
+        contributors.push(obj);
+      }
     } catch (e) {
       console.error(`Invalid JSON in ${file}`);
     }
