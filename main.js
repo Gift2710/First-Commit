@@ -4,7 +4,6 @@ fetch('src/data/contributors.json')
         const contributorsDiv = document.getElementById('contributors');
         data.forEach(contributor => {
             const contributorElement = document.createElement('div');
-            contributorElement.className = 'contributor-card';
             contributorElement.innerHTML = `
                 <h2>${contributor.name}</h2>
                 <p>GitHub: <a href="${contributor.github}" target="_blank">${contributor.github}</a></p>
