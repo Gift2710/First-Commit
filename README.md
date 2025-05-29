@@ -1,7 +1,7 @@
 # 🚀 First Commit Demo
 
 <!-- 語言導覽表 -->
-[![(繁體中文)Tradionnal Chinese](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.3.2/flags/4x3/tw.svg)] (language/README.tw.md)
+[![繁體中文](https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.3.2/flags/4x3/tw.svg)](language/README.tw.md)
 
 Welcome to **First Commit Demo**!  
 This project is designed to help **GitHub beginners** make their very first contribution in a friendly, zero-pressure environment.
